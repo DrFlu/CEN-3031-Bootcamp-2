@@ -1,0 +1,42 @@
+#searchBar {
+  margin: 15px 10px;    
+}
+
+.tableWrapper {
+  max-height: 500px;
+  width: 100%;
+  overflow: auto;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+    background-color: lightgreen;
+}
+
+.table-striped> tbody > tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+.table-striped> tbody > tr:nth-child(even){
+    background-color: orange;
+}
+
+.jumbotron{
+    
+ 
+    height: 420px;
+    background-color: lightgray;
+    
+    color:blue;
+    
+    align-items: center;
+    justify-content:center;
+}
+
+.newEntry{
+    
+ 
+    height: 400px;
+    background-color: lightskyblue;
+    
+    align-items: center;
+    justify-content:center;
+}
